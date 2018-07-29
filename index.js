@@ -1,6 +1,6 @@
 //Your code here
 function justInvoke(fn){
-  return this.fn
+  return fn.thisValue
 }
 
 
