@@ -1,11 +1,9 @@
 //Your code here
 function justInvoke(fn){
-  fn
+  this.fn
 }
 
 
 function setThisWithCall(fn, thisValue, arg){
 
 }
-
-
