@@ -9,6 +9,5 @@ function setThisWithCall(fn, thisValue, arg){
 }
 
 function setThisWithApply(fn, thisValue, args){
-  return args[0]
-
+  return fn.apply(thisValue, arg)
 }
